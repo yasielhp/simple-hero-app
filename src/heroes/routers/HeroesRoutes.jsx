@@ -9,14 +9,14 @@ export const HeroesRoutes = () => {
     <div className='h-full w-full'>
       <Navbar />
       <Routes>
-        <Route path='home' element={<HomePage/> }/>
+        <Route path='/' element={<HomePage/> }/>
         <Route path="marvel" element={<MarvelPage />} />
         <Route path="dc" element={<DcPage />} />
 
         <Route path="search" element={<SearchPage />} />
         <Route path="hero/:id" element={<HeroPage />} />
 
-        <Route path="*" element={<Navigate to='/home' />} />
+        <Route path="*" element={<Navigate to='/' />} />
 
       </Routes>
     </div>
