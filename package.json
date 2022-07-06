@@ -8,8 +8,7 @@
     "preview": "vite preview",
     "start": "concurrently \"npm run start:css\" \"react-scripts start\"",
     "start:css": "tailwindcss -o src/tailwind.css --watch",
-    "build:css": "NODE_ENV=production tailwindcss -o src/tailwind.css -m",
-    "deploy": "gh-pages -d dist"
+    "build:css": "NODE_ENV=production tailwindcss -o src/tailwind.css -m"
   },
   "dependencies": {
     "@nextui-org/react": "^1.0.0-beta.9",
