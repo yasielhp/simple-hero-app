@@ -6,7 +6,7 @@ export const HeroCard = ({
   publisher,
   alter_ego,
 }) => {
-  const heroImage = `image/${id}.jpg`;
+  const heroImage = `assets/${id}.jpg`;
   const navigation = useNavigate()
   const handleNavigation = () => {
     navigation(`/hero/${id}`)
