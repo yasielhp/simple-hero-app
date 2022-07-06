@@ -19,12 +19,12 @@ export const HeroPage = () => {
   }
 
   return (
-    <div className="flex flex-wrap overflow-hidden justify-center py-10">
-        <div className="sm:w-full md:w-80 lg:w-96 overflow-hidden p-2 bg-white rounded-lg shadow-lg animate__animated animate__fadeIn">
-          <img className="w-full object-fill rounded-lg  h-50" alt={ hero.superhero} src={heroImage} />
+    <div className="flex flex-wrap overflow-hidden justify-center py-10 mx-6">
+        <div className="sm:w-full md:w-80 lg:w-96 overflow-hidden p-2 bg-slate-50 rounded-t-lg md:rounded-b-lg animate__animated animate__fadeIn">
+          <img className="w-full object-fill rounded-lg h-50" alt={ hero.superhero} src={heroImage} />
         </div>
-        <div className="w-full sm:w-full md:w-80 lg:w-96 overflow-hidden md:pr-4 flex-col">
-          <div className="h-auto w-full bg-slate-50 mt-9 p-5 rounded-l-lg md:rounded-l-none rounded-r-lg animate__animated animate__fadeInLeft">
+        <div className="w-full sm:w-full md:w-80 lg:w-96 overflow-hidden md:pr-4 flex-col mt-0 md:mt-8">
+          <div className="h-auto w-full bg-slate-50 p-5 rounded-bl-lg rounded-br-lg md:rounded-bl-none rounded-tl-none rounded-tr-none md:rounded-tr-lg animate__animated animate__fadeInLeft">
             <h2 className="text-3xl font-bold text-slate-600">{hero.superhero}</h2>
             <div className="flex">
               <p className="font-semibold mr-2">Publisher:</p>
