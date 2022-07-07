@@ -24,7 +24,7 @@ export const HeroPage = () => {
           <img className="w-full object-fill rounded-lg h-50" alt={ hero.superhero} src={heroImage} />
         </div>
         <div className="w-full sm:w-full md:w-80 lg:w-96 overflow-hidden md:pr-4 flex-col mt-0 md:mt-8">
-          <div className="h-auto w-full bg-slate-50 p-5 rounded-bl-lg rounded-br-lg md:rounded-bl-none rounded-tl-none rounded-tr-none md:rounded-tr-lg animate__animated animate__fadeInLeft">
+          <div className="h-auto w-full bg-slate-50 p-5 rounded-bl-lg rounded-br-lg md:rounded-bl-none rounded-tl-none rounded-tr-none md:rounded-tr-lg animate__animated animate__fadeIn">
             <h2 className="text-3xl font-bold text-slate-600">{hero.superhero}</h2>
             <div className="flex">
               <p className="font-semibold mr-2">Publisher:</p>
@@ -43,7 +43,7 @@ export const HeroPage = () => {
               <p className="flex">{hero.characters}</p>
             </div>
           </div>
-        <div className="pt-3 animate__animated animate__fadeInLeft">
+        <div className="pt-3 animate__animated animate__fadeIn">
           <button className="w-full text-base px-6 py-3 font-normal text-slate-500 bg-slate-50 border rounded-l-lg md:rounded-l-none rounded-r-lg border-white hover:bg-white hover:text-slate-500" onClick={handleBack}>Back</button>
         </div>
         </div>
